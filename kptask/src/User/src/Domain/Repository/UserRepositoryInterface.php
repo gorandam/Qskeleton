@@ -1,14 +1,15 @@
 <?php
 declare(strict_types=1);
 
-namespace Kptask\Core\Repository;
+namespace Kptask\User\Domain\Repository;
 
-use Kptask\User\Entity\User;
+use Kptask\User\Domain\Entity\User;
 use Zend\Stdlib\ArrayObject;
+
 
 /**
  * Interface UserRepositoryInterface
- * @package Kptask\Core\Repository
+ * @package Kptask\User\Domain\Repository
  */
 interface UserRepositoryInterface
 {

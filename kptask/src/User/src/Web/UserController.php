@@ -1,6 +1,6 @@
 <?php
 declare(strict_types=1);
-namespace Kptask\User\Controller;
+namespace Kptask\User\Web;
 
 use Kptask\Core\Controller\AbstractBaseController;
 use Kptask\Core\Validator\ValidatorInterface;

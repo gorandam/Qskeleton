@@ -1,11 +1,11 @@
 <?php
 declare(strict_types = 1);
-namespace Kptask\User\Repository;
+namespace Kptask\User\Infrastructure\Repository;
 
 use Exception;
 use Kptask\Core\Mapper\UserMapperInterface;
-use Kptask\Core\Repository\UserRepositoryInterface;
-use Kptask\User\Entity\User;
+use Kptask\User\Domain\Repository\UserRepositoryInterface;
+use Kptask\User\Domain\Entity\User;
 use Zend\Stdlib\ArrayObject;
 
 /**

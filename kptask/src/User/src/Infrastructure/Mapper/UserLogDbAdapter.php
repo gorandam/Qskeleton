@@ -1,10 +1,10 @@
 <?php
 declare(strict_types=1);
 
-namespace Kptask\User\Mapper;
+namespace Kptask\User\Infrastructure\Mapper;
 
 use Kptask\Core\Mapper\UserMapperInterface;
-use Kptask\User\Entity\User;
+use Kptask\User\Domain\Entity\User;
 use Zend\Stdlib\ArrayObject;
 
 /**
@@ -17,7 +17,7 @@ class UserLogDbAdapter implements UserMapperInterface
     /**
      * @inheritDoc
      */
-    public function fetchAll($params = array())
+    public function fetchAll($params = array(), $limit)
     {
         // TODO: Implement fetchAll() method.
     }

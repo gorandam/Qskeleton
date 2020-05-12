@@ -1,8 +1,8 @@
 <?php
 declare(strict_types=1);
-namespace Kptask\User\Validator;
+namespace Kptask\User\Domain\Validator;
 
-use Kptask\Core\Repository\UserRepositoryInterface;
+use Kptask\User\Domain\Repository\UserRepositoryInterface;
 use Kptask\Core\Validator\ValidatorInterface;
 use Tamtamchik\SimpleFlash\Flash;
 use Zend\Validator\EmailAddress;

@@ -1,10 +1,10 @@
 <?php
 declare(strict_types=1);
 
-namespace Kptask\User\Validator;
+namespace Kptask\User\Domain\Validator;
 
 use Kptask\Core\Adapter\Email\EmailValidatorServiceInterface;
-use Kptask\Core\Repository\UserRepositoryInterface;
+use Kptask\User\Domain\Repository\UserRepositoryInterface;
 use Kptask\Core\Validator\AbstractValidationManager;
 use Kptask\Core\Validator\AbstractValidator;
 use Tamtamchik\SimpleFlash\Flash;

@@ -1,9 +1,9 @@
 <?php
 declare(strict_types = 1);
-namespace Kptask\User\Mapper;
+namespace Kptask\User\Infrastructure\Mapper;
 
 use Kptask\Core\Mapper\UserMapperInterface;
-use Kptask\User\Entity\User;
+use Kptask\User\Domain\Entity\User;
 
 /**
  * Class UserDbAdapter

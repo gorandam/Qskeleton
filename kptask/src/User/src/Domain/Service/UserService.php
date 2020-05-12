@@ -1,13 +1,13 @@
 <?php
 declare(strict_types = 1);
-namespace Kptask\User\Service;
+namespace Kptask\User\Domain\Service;
 
 use Kptask\Core\Email\MailerInterface;
 use Kptask\Core\Notification\NotificationManagerInterface;
-use Kptask\Core\Repository\UserRepositoryInterface;
+use Kptask\User\Domain\Repository\UserRepositoryInterface;
 use Kptask\Core\Service\UserServiceInterface;
-use Kptask\User\Factory\UserEntityFactory;
-use Kptask\User\Validator\UserValidationManager;
+use Kptask\User\Domain\Factory\UserEntityFactory;
+use Kptask\User\Domain\Validator\UserValidationManager;
 use Zend\Session\ManagerInterface;
 use Zend\Stdlib\ArrayObject;
 
