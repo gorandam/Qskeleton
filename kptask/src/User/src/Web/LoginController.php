@@ -1,20 +1,20 @@
 <?php
 declare(strict_types=1);
-namespace Kptask\Core\Controller;
+namespace Kptask\User\Web;
 
-use Kptask\Core\Controller\AbstractBaseController;
+use Kptask\Core\Web\AbstractBaseController;
 
-;
-use Kptask\Core\Service\UserServiceInterface;
+use Kptask\User\Domain\Service\UserServiceInterface;
 use Psr\Http\Message\ResponseInterface;
 use Tamtamchik\SimpleFlash\Flash;
 use Twig\Environment;
 use Zend\Config\Config;
 use Zend\Session\ManagerInterface;
 
+
 /**
  * Class LoginController
- * @package Kptask\Core\Controller
+ * @package Kptask\User\Web
  */
 class LoginController extends AbstractBaseController
 {

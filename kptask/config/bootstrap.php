@@ -15,19 +15,19 @@ use Monolog\Handler\StreamHandler;
 use Psr\Log\LoggerInterface as Logger;
 use Zend\Config\Config;
 use Tamtamchik\SimpleFlash\Flash;
-use Bipsys\Admin\Acl\Acl;
+//use Bipsys\Admin\Acl\Acl;
 /* import users */
 use Kptask\User\Infrastructure\Repository\UserRepository;
 use Kptask\User\Domain\Repository\UserRepositoryInterface;
 use Kptask\User\Infrastructure\Mapper\UserDbAdapter;
-use Kptask\Core\Mapper\UserMapperInterface;
+use Kptask\User\Infrastructure\Mapper\UserMapperInterface;
 use Kptask\Core\Validator\ValidatorInterface;
 use Kptask\User\Domain\Validator\UserValidator;
 use Kptask\User\Domain\Service\UserService;
-use Kptask\Core\Service\UserServiceInterface;
+use Kptask\User\Domain\Service\UserServiceInterface;
 //mailer
-use Kptask\Core\Email\Mailer;
-use Kptask\Core\Email\MailerInterface;
+//use Kptask\Core\Email\Mailer;
+//use Kptask\Core\Email\MailerInterface;
 use Zend\Validator\EmailAddress;
 
 $containerBuilder = new \DI\ContainerBuilder;

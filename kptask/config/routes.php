@@ -14,9 +14,9 @@
  */
 
 return [
-    ['GET', '/', 'Kptask\Core\Controller\IndexController'],
-   [['GET', 'POST'], '/login/{action}', 'Kptask\Core\Controller\LoginController'],
-    [['GET', 'POST'], '/register/{action}', 'Kptask\Core\Controller\RegisterController'],
+    ['GET', '/', 'Kptask\Core\Web\IndexController'],
+   [['GET', 'POST'], '/login/{action}', 'Kptask\User\Web\LoginController'],
+    [['GET', 'POST'], '/register/{action}', 'Kptask\User\Web\RegisterController'],
    [['GET', 'POST'], '/user/{action}[/{userId}]', 'Kptask\User\Web\UserController'],
 
 ];

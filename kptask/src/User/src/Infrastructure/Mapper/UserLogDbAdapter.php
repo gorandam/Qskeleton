@@ -3,13 +3,14 @@ declare(strict_types=1);
 
 namespace Kptask\User\Infrastructure\Mapper;
 
-use Kptask\Core\Mapper\UserMapperInterface;
+use Kptask\User\Infrastructure\Mapper\UserMapperInterface;
 use Kptask\User\Domain\Entity\User;
 use Zend\Stdlib\ArrayObject;
 
+
 /**
  * Class UserLogDbAdapter
- * @package Kptask\User\Mapper
+ * @package Kptask\User\Infrastructure\Mapper
  */
 class UserLogDbAdapter implements UserMapperInterface
 {

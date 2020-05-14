@@ -3,7 +3,7 @@ declare(strict_types = 1);
 
 namespace Kptask\User\Domain\Entity;
 
-use Kptask\Core\Entity\UserModelInterface;
+use Kptask\User\Domain\Entity\UserModelInterface;
 
 /**
  * Class User

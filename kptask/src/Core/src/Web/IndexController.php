@@ -1,8 +1,8 @@
 <?php
 declare(strict_types=1);
-namespace Kptask\Core\Controller;
+namespace Kptask\Core\Web;
 
-use Kptask\Core\Controller\AbstractBaseController;
+use Kptask\Core\Web\AbstractBaseController;
 use Psr\Http\Message\ResponseInterface;
 use Tamtamchik\SimpleFlash\Flash;
 use Twig\Environment;

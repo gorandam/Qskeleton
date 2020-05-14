@@ -1,7 +1,7 @@
 <?php
 declare(strict_types=1);
 
-namespace Kptask\Core\Mapper;
+namespace Kptask\User\Infrastructure\Mapper;
 
 use Kptask\User\Domain\Entity\User;
 use Zend\Stdlib\ArrayObject;

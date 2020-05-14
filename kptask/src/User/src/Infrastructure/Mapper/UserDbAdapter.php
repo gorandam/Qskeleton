@@ -2,12 +2,13 @@
 declare(strict_types = 1);
 namespace Kptask\User\Infrastructure\Mapper;
 
-use Kptask\Core\Mapper\UserMapperInterface;
+use Kptask\User\Infrastructure\Mapper\UserMapperInterface;
 use Kptask\User\Domain\Entity\User;
+
 
 /**
  * Class UserDbAdapter
- * @package Kptask\User\Mapper
+ * @package Kptask\User\Infrastructure\Mapper
  */
 class UserDbAdapter implements UserMapperInterface
 {
@@ -22,11 +23,11 @@ class UserDbAdapter implements UserMapperInterface
 
     /**
      * UserDbAdapter constructor.
-     * @param \PDO $pdo
+     * @param \PDO $driver
      */
-    public function __construct(\PDO $pdo)
+    public function __construct(\PDO $driver)
     {
-        $this->driver = $pdo;
+        $this->driver = $driver;
     }
 
     /**

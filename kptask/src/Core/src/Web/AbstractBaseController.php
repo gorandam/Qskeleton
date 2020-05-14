@@ -1,7 +1,7 @@
 <?php
 declare(strict_types=1);
 
-namespace Kptask\Core\Controller;
+namespace Kptask\Core\Web;
 
 use Psr\Http\Message\ResponseInterface as Response;
 use GuzzleHttp\Psr7\ServerRequest as Request;

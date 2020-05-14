@@ -1,11 +1,11 @@
 <?php
 declare(strict_types=1);
 
-namespace Kptask\Core\Controller;
+namespace Kptask\User\Web;
 
-use Kptask\Core\Controller\AbstractBaseController;
+use Kptask\Core\Web\AbstractBaseController;
 use Kptask\Core\Validator\ValidatorInterface;
-use Kptask\Core\Service\UserServiceInterface;
+use Kptask\User\Domain\Service\UserServiceInterface;
 use Psr\Http\Message\ResponseInterface;
 use Twig\Environment;
 use Zend\Session\ManagerInterface;

@@ -1,11 +1,12 @@
 <?php
 declare(strict_types=1);
 
-namespace Kptask\Core\Service;
+namespace Kptask\User\Domain\Service;
+
 
 /**
  * Interface UserServiceInterface
- * @package Kptask\Core\Service
+ * @package Kptask\User\Domain\Service
  */
 interface UserServiceInterface
 {

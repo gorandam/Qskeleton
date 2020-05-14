@@ -1,12 +1,12 @@
 <?php
 declare(strict_types=1);
 
-namespace Kptask\Core\Entity;
+namespace Kptask\User\Domain\Entity;
 
 /**
  * Class UserModelInterface
  * @package Kptask\Core\Entity
  */
-interface UserModelInterface extends DomainModelInterface
+interface UserModelInterface
 {
 }
