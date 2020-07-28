@@ -47,9 +47,9 @@ ff02::3 ip6-allhosts
 sudo bash -c "echo 'server {
     listen 80;
     sendfile off;
-    root /vagrant/kptask/public;
+    root /vagrant/skeleton/public;
     index index.php index.html index.htm;
-    server_name kptask.local;
+    server_name skeleton.local;
     location / {
          try_files \$uri \$uri/ /index.php?\$args;
     }
@@ -74,12 +74,12 @@ sudo bash -c "echo 'server {
         include fastcgi_params;
         fastcgi_param APPLICATION_ENV development;
     }
-}' > /etc/nginx/sites-available/kptask.local"
+}' > /etc/nginx/sites-available/skeleton.local"
 
-sudo ln -s /etc/nginx/sites-available/kptask.local /etc/nginx/sites-enabled/kptask.local
+sudo ln -s /etc/nginx/sites-available/skeleton.local /etc/nginx/sites-enabled/skeleton.local
 sudo service nginx restart
 
 echo "
    Add this line to hosts file :
-   192.168.5.28    kptask.local
+   192.168.5.28    skeleton.local
 "
